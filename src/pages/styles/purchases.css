@@ -1,0 +1,13 @@
+.purchases__title{
+    text-align: center;
+    font-size: 1.5em;
+    opacity: 0.8;
+    color: rgb(77, 76, 76);
+    margin-bottom: 2em;
+}
+.purchases-container{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}

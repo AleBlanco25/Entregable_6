@@ -1,0 +1,40 @@
+.home-content{
+  display: flex;
+}
+
+.products-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .home-aside{
+    display: flex;
+    flex-direction: column;
+    gap: 1.7em;
+  }
+
+  .home__input-container{
+    display: flex;
+    justify-content: center;
+  }
+  .home__input{
+    border: 0.3px solid rgba(206, 205, 205, 0.911);
+    border-radius: 0.2em 0 0 0.2em;
+    padding-left: 0.7em;
+    font-size: 0.8em;
+    height: 35px;
+    width: 73%;
+    margin-bottom: 1em;
+   
+  }
+
+  .home__btn{
+    color: white;
+    background-color: #F85555;
+    border-radius: 0 0.3em 0.3em 0;
+    width: 5%;
+    height: 35px;
+
+  }

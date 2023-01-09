@@ -1,0 +1,19 @@
+.product__info-container{
+    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.similar-products-container{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    gap: 3em;
+    flex-wrap: nowrap;
+}
+
+.product__info-title{
+    font-size: 1.2em;
+    opacity: 0.7;
+    margin-bottom: 2em;
+    margin-left: 1em;
+}

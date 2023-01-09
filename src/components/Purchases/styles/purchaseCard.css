@@ -1,0 +1,40 @@
+
+.purchases__card{
+    margin: 0 auto;
+}
+.purchases__card-container{
+    margin-left: 5em;
+}
+
+.purchases__date{
+    font-size: 1em;
+    border: 1px solid gray;
+    border-radius: 0.2em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    margin-right: 8em;
+    opacity: 0.9;
+}
+.purchases__list{
+    max-width: 90%;
+    display: grid;
+    gap: 1.3em;
+}
+
+.purchase__card-list{
+    opacity: 0.6;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.purchases-card__title{
+    padding-left: 0.5em;
+    padding-right: 3.5em;
+    width: calc(2/3 * 100%);
+}
+.purchases__quantity{
+    width: calc(100% /3);
+}
+.purchases__price{
+    width: calc(100% /3);
+}

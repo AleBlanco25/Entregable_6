@@ -1,0 +1,75 @@
+.description-container{
+    margin-top: 3em;
+    width: 70%;
+}
+.description__title{
+    text-align: center;
+    opacity: 0.7;
+    padding-bottom: 0.5em;
+}
+.description__text{
+    opacity: 0.8;
+    padding-bottom: 2em;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.price__span{
+    font-size: 1em;
+    opacity: 0.7;
+}
+.price__title{
+    padding-top: 0.8em;
+    opacity: 0.75;
+}
+
+.quantity-containter{
+    margin-bottom: 1.5em;
+}
+
+.quantity__title{
+    font-size: 1em;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.counter-container{
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.counter{
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    padding: 0.3em 1em;
+}
+
+.btn__quantity{
+    border: 1px solid rgba(128, 128, 128, 0.562);
+    padding: 0.5em 1em;
+}
+.btn__quantity:hover{
+    background-color: #F85555;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.btn__cart{
+    font-size: 0.9em;
+    width: 100%;
+    display: block;
+    border-radius: 0.2em;
+    color: white;
+    padding: 0.8em 1em;
+    background-color: #F85555;
+}
+
+.btn__cart:hover{
+    transform: scale(1.05);
+    filter: brightness(1.2);
+    transition: transform 0.5s ease, filter 0.3s ease;
+}

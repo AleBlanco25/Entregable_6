@@ -1,0 +1,17 @@
+
+.navbar-list{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+.nav-ecommerce{
+    width: 70%;
+}
+
+.main-title{
+    color:  #F85555;
+    font-size: 1.8em;
+}

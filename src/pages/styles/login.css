@@ -1,0 +1,87 @@
+
+.user__logged{
+    
+    text-align: center;
+}
+
+.user__status{
+    opacity: 0.7;
+}
+.user__logged-title{
+    opacity: 0.7;
+    margin: 1em 0;
+    font-size: 1.2em;
+}
+.user__logged-btn{
+    font-size: 0.8em;
+    padding: 0.7em 2em;
+    color: white;
+    background-color:#F85555;
+    border-radius: 0.3em;
+}
+.user__logged-btn:hover{
+    transform: scale(1.04);
+    transition: transform 0.2s ease;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.login__title{
+    color: rgb(71, 71, 71);
+    opacity: 0.8;
+    margin: 0 auto;
+    width: 310px;
+    text-align: center;
+}
+
+.login__text{
+    font-size: 0.85em;
+    color: rgba(44, 128, 238, 0.911);
+}
+.data{
+    width: 300px;
+    padding: 1.3em;
+    background-color: rgb(147, 243, 243);
+}
+.fa-envelope, .fa-lock{
+    padding: 0.5em;
+}
+
+.data__title{
+    opacity: 1;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.login__inputs{
+    font-size: 0.9em;
+    display: grid;
+    padding: 0.5em 1em;
+}
+.login__input{
+    width: 300px;
+    height: 30px;
+    margin-top: 0.2em;
+}
+
+.login__btn{
+    width: 300px;
+    display: block;
+    margin: 1em auto;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    color: white;
+    background-color: #F85555;
+}
+
+.login__btn:hover{
+    transform: scale(1.02);
+    filter: brightness(1.1);
+    transition: transform 0.3s ease, filter 0.2s ease;
+}

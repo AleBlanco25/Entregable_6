@@ -1,0 +1,31 @@
+.category-container{
+    padding: 1.5em;
+}
+.category__title{
+    font-size: .95em;
+    margin-bottom: 0.5em;
+}
+
+.category__list{
+    cursor: pointer;
+    font-size: 0.8em;
+    padding: 0 3em;
+}
+.all-categories{
+    padding: 0.4em 0.5em;
+}
+
+.all-categories:hover{
+    color: white;
+    background-color: #F85555;
+    transition: background-color 0.5s ease;
+}
+.categories{
+    padding: 0.4em 0.5em;
+}
+
+.categories:hover{
+    color: white;
+    background-color: #F85555;
+    transition: background-color 0.5s ease;
+}
